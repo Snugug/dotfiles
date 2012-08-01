@@ -11,3 +11,8 @@ export HISTFILESIZE=$HISTSIZE
 export HISTCONTROL=ignoredups
 # Make some commands not show up in history
 export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
+
+# Force DRUSH to use MAMP's version of PHP
+if [[ "$OSTYPE" =~ ^darwin ]]; then
+  export DRUSH_PHP=/Applications/MAMP/bin/php/php5.3.6/bin/php
+fi
