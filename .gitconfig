@@ -25,6 +25,11 @@
 	# Undo a `git push`
 	undopush = push -f origin HEAD^:master
 
+[user]
+	name = bleen
+	email = git.119x@bleen.net
+	irc = bleen
+
 [apply]
 	# Detect whitespace errors when applying a patch
 	whitespace = fix
