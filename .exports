@@ -12,7 +12,11 @@ export HISTCONTROL=ignoredups
 # Make some commands not show up in history
 export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
 
-# Force DRUSH to use MAMP's version of PHP
+# Force command line tools to use MAMP's version of PHP, PEAR, etc.
 if [[ "$OSTYPE" =~ ^darwin ]]; then
   export DRUSH_PHP=/Applications/MAMP/bin/php/php5.4.4/bin/php
+  export PATH=/Applications/MAMP/bin/php/php5.4.4/bin:$PATH
 fi
+
+# Make certain git is always available.
+export PATH="/usr/local/git/bin:${PATH}"
