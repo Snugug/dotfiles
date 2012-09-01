@@ -10,7 +10,7 @@ export HISTSIZE=32768
 export HISTFILESIZE=$HISTSIZE
 export HISTCONTROL=ignoredups
 # Make some commands not show up in history
-export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
+export HISTIGNORE="ls:cd:cd -:pwd:exit:date:* --help"
 
 # Force command line tools to use MAMP's version of PHP, PEAR, etc.
 if [[ "$OSTYPE" =~ ^darwin ]]; then
