@@ -5,7 +5,7 @@
         lor = log --pretty=format:%s
 	# View the current working tree status using the short format
 	s = status -bs
-        st = status -bs
+	st = status -bs
 	# Diff
 	d = diff --patch-with-stat
 	# Pull in remote changes for the current repository and all its submodules
