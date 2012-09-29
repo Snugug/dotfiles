@@ -2,12 +2,25 @@
 *.pyc
 
 # Folder view configuration files
-.DS_Store
+.DS
 Desktop.ini
 
 # Thumbnail cache files
 ._*
 Thumbs.db
+
+# VI swap files
+*.swp
+
+# Windows links.
+*.lnk
+
+# Temporary files
+tmp*
+
+# Project files
+.project
+nbproject
 
 # Files that might appear on external disks
 .Spotlight-V100
