@@ -21,6 +21,7 @@ tmp*
 # Project files
 .project
 nbproject
+.sass-cache
 
 # Files that might appear on external disks
 .Spotlight-V100
